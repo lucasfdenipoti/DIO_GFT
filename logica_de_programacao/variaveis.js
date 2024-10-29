@@ -1,17 +1,17 @@
-//saida
+// Saída
 console.log("Digite o nome do jogador: ")
 
-//declaracao de variavel
+// Declaracao de variavel
 let nickname = "Lucas"
 
-//concatenando uma mensagem mais uma variavel
+// Concatenando uma mensagem mais uma variavel
 console.log("Seja bem vindo " + nickname + "!")
 console.log(nickname + " Entrou no Servidor!")
 
-//declaracao de constante
+// Declaracao de constante
 const notificacao = "Pokemon Go diz: "
 
-//concatenando uma mensagem mais uma constante
+// Concatenando uma mensagem mais uma constante
 console.log(notificacao + "Tem um pokemon novo na região!")
 console.log(notificacao + "Você foi derrotado por um Líder de Ginásio!")
 
@@ -26,17 +26,17 @@ console.log("Na prateleira da vovó " + vovo + " tem: "
 + poteAcucar + " e "
 + poteCookies )
 
-//Ficha de personagem de RPG
-let nome = "Phyvon" //string
-let raca = "Draconato" //string
-let classe = "Paladino" //string
-let nivel = 20 //number
-let pv = 232 //number
-let Mana = 28 //number
-let vivo = true //boolean
+// Ficha de personagem de RPG
+let nome = "Phyvon" // String
+let raca = "Draconato" // String
+let classe = "Paladino" // String
+let nivel = 20 // Number
+let pv = 232 // Number
+let Mana = 28 // Number
+let vivo = true // Boolean
 
-//Ficha do Jogador
-let jogador = "Lucas" //string
-let celular = "(15)98811-0826" //string
-let idade = 22 //number
-let jogadorAtivo = true //boolean
+// Ficha do Jogador
+let jogador = "Lucas" // String
+let celular = "(15)98811-0827" // String
+let idade = 22 // Number
+let jogadorAtivo = true // Boolean

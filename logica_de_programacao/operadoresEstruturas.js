@@ -1,5 +1,6 @@
 console.clear(); 
 
+// Declaração de variáveis
 let minRoll = 1;
 let maxRoll = 20;
 let minDmg = 8;
@@ -16,7 +17,7 @@ console.log("-------------------------------------------------------------------
 console.log("Você foi escolhido para enfrenter o terrível dragão e recuperar o tesouro roubado")
 console.log("O destino do reino está em suas mãos, boa sorte")
 
-while (countTurnos > 0) {
+while (countTurnos > 0) {   // Estrutura de repeticção
     let roll = Math.floor(Math.random() * (maxRoll - minRoll + 1)) + minRoll;
     let rollDmg = Math.floor(Math.random() * (maxDmg - minDmg + 1)) + minDmg;
     let goldDiv = Math.floor(Math.random() * (maxGold - minGold + 1)) + minGold;
